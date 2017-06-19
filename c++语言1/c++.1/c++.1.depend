@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1497194235 source:d:\github\c++”Ô—‘1\c++.1\account.cpp
+	"account.h"
+	<iostream>
+	<cmath>
+
+1497194271 d:\github\c++”Ô—‘1\c++.1\account.h
+	<iostream>
+
+1497194161 source:d:\github\c++”Ô—‘1\c++.1\main.cpp
+	"account.cpp"
+	"account.h"
+	<stdlib.h>
+	<iostream>
+
+1497194235 d:\github\c++”Ô—‘1\c++.1\account.cpp
+	"account.h"
+	<iostream>
+	<cmath>
+

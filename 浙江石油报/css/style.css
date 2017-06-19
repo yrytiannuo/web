@@ -1,0 +1,16 @@
+header{
+	width:100%;
+	height: 112px;
+}
+.dabiaoti{
+	width:1200px;
+	height:100%;
+}
+.dabiaoti img{
+	margin-top:14px;
+}
+.dabiaoti dao{
+	width: 100%;
+	height: 44px;
+	background-color: #1477ca;
+}

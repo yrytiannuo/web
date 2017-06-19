@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1496465869 source:c:\users\天诺\desktop\c语言\个人银行管理系统\account.cpp
+	"account.h"
+	<cmath>
+	<iostream>
+
+1496465869 c:\users\天诺\desktop\c语言\个人银行管理系统\account.h
+	<iostream>
+
+1496465869 source:c:\users\天诺\desktop\c语言\个人银行管理系统\main.cpp
+	"account.h"
+	<cstdlib>
+	<iostream>
+
