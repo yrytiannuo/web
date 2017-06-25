@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- 把a标签转化为块状元素，然后再加上a:hover的事件。对li的css样式也能写到a标签里面。 -->
+<html>
+<head>
+	<title>导航菜单</title>
+	<meta charset="utf-8">
+	<style type="">
+		*{
+			margin:0;
+			padding:0;
+			font-size: 14px;
+		}
+		ul{
+			list-style: none;
+			margin:100px auto;
+			width:600px;
+
+		}
+		a{
+			text-decoration: none;
+			display: block;
+			height: 30px;
+			line-height: 30px;
+			width:100px;
+			background-color: #ccc;
+			text-indent: 10px;
+		}
+		li{
+			float:left;margin-left:10px;border-bottom: 5px solid #F60;
+		}
+		a:hover{
+			background-color: #f60;
+			color:white;
+		}
+		.on,a:hover{
+			color:#fff;
+			background-color: #f60;
+			height: 40px;
+			margin-top:-10px;
+			line-height: 40px;
+		}
+	</style>
+	<script>
+		window.onload=function(){
+		var aa=document.getElementsByTagName("a");
+		for(var i=0;i<aa.length;i++){
+			aa[i].onmouseover=function(){
+				var This=this;
+				This.time=setInterval(function(){
+					This.style.width=This.offsetWidth+8+"px";
+					if(Tis.offsetWidth>=60){
+						clearInterval(This.time)
+					}
+				},30)
+			}
+		}
+	}
+</script>
+</head>
+<body>
+<ul>
+	<li><a class="on" href="#">首页</a></li>
+	<li><a href="#">新闻快讯</a></li>
+	<li><a href="#">产品展示</a></li>
+	<li><a href="#">售后服务</a></li>
+	<li><a href="#">联系我们</a></li>
+</ul>
+
+</body>
+</html>
