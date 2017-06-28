@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1498629676 source:d:\github\队列初识c\queue.c\main.cpp
+	<iostream>
+	<stdlib.h>
+	"queue.h"
+
+1498628099 source:d:\github\队列初识c\queue.c\souce.cpp
+	"queue.h"
+	<iostream>
+
+1498625866 d:\github\队列初识c\queue.c\queue.h
+
