@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		var db=openDatabase('mybd','1.0','Test DB',2*1024*1024);
+		var msg;
+		db.transaction(function(tx){
+			tx.executeSql('CREATE TABLE IF NOT EXISTS LOGS(id unique,log)');
+
+		    tx.executeSql('CREATE TABLE IF NOT EXISTS LOGS(id,log)')
+		})
+	</script>
+	<title></title>
+</head>
+<body>
+
+</body>
+</html>
