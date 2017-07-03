@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>Javascript 返回顶部</title>
+	<style type="text/css">
+		.box{
+			width: 1190px;
+			margin:0 auto;
+		}
+		#btn{
+			width: 40px;
+			height: 40px;
+			position: fixed;
+			left:50%;
+			bottom:30px;
+			margin-left: 610px;
+			background:url(images/top_bg.png) no-repeat left top;
+			display: none;
+		}
+		#btn:hover{
+			background:url(images/top_bg.png) no-repeat left 
+			-40px;
+		}
+	</style>	
+</head>
+<body>
+	<div class="box">
+		<img src="images/tb_bg.jpg" alt="" />
+	</div>
+	<a href="Javascript:;" id="btn" title="回到顶部"></a>
+	<script type="text/javascript">
+	    // 界面加载完后触发
+		window.onload=function(){
+			var obtn=document.getElementById('btn');
+			// 获取页面可视化高度
+			var clientHeight=document.documentElement.clientHeight;
+			// 计时器
+			var timer=null;
+			var isTop=true;
+			window.onscroll=function(){
+				var osTop=document.documentElement.scrollTop||document.body.scrollTop;
+				if(osTop>=clientHeight){
+					obtn.style.display='block';
+				}
+				else{
+					obtn.style.display='none';
+				}
+				if(!isTop){
+					clearInterval(timer);
+				}
+				isTop=false;
+			}
+			obtn.onclick=function(){
+				timer=setInterval(function(){
+					var osTop=document.documentElement.scrollTop||document.body.scrollTop;
+					var ispeed=Math.floor(-osTop/8);
+				document.documentElement.scrollTop=document.body.scrollTop=osTop+ispeed;
+
+				isTop=true;
+				if (osTop==0){
+					clearInterval(timer);
+				}
+			},30);
+				
+			}
+		}
+	</script>
+</body>
+</html>
