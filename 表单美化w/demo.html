@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>表单美化</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.type{
+			width: 400px;
+			height: 40px;
+			border:1px solid #DFDFDF;
+			margin:30px auto;
+		}
+		a{
+			color:#000000;
+			text-decoration: none;
+
+		}
+		body{
+			font:12px/22px "微软雅黑";
+		}
+		.type dl{
+			height: 32px;
+			line-height: 20px;
+
+		}
+		.type dt{
+			float:left;
+		}
+		.type dd{
+			float:left;
+			left:10px;
+			margin-left:10px;
+		}
+		.type dd a:hover{
+			color:#CC0000;
+			text-decoration: underline;
+		}
+	</style>
+</head>
+<body>
+	<div class="type">
+		<!-- <form action="#" method="post" name="typeForm">
+			<label>配送类型：</label>
+			<input type="radio" name="type" checked="checked"><label>全部</label>
+			<input type="radio" name="type">
+			<label>京东配送</label>
+			<input type="radio" name="type">
+			<label>第三方配送</label>
+		</form> -->
+		<dl>
+			<dt>配送类型：</dt>
+			<dd><a href="#">全部</a></dd>
+			<dd><a href="#">京东配送</a></dd>
+			<dd><a href="#">第三方配送</a></dd>
+		</dl>
+	</div>
+</body>
+</html>
