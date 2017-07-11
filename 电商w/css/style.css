@@ -1,0 +1,114 @@
+/*css Doucument*/
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{
+	margin:0;
+	padding: 0;
+}
+body{
+	font-size: 12px;
+}
+img{
+	border:none;
+}
+li{
+	list-style: none;
+}
+input,select,textarea{
+	outline:none;
+	border:none;
+	
+}
+textarea{
+	resize:none;
+}
+a{
+	text-decoration: none;
+	color:#656565;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+/*css Doucument*/
+/*-----------------------------------------------------------------*/
+/*公用*/
+.comwidth{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+
+
+/*top*/
+.top{
+	height: 31px;
+	background-color:#F7F7F7;
+	line-height: 31px;
+}
+.collection{
+	background:url(../images/黄色五角星.png) left center no-repeat ;
+	padding-left:19px;
+	font-weight: bold;
+}
+a:hover{
+	color:red;
+}
+
+/*logo*/
+.min{
+	height: 85px;
+	background-color:#1D7AD9; 
+}
+.logo{
+	padding-left:41px;
+	padding-top:13px;
+}
+.search{
+	width: 430px;
+	padding-top:23px;
+	padding-left: 185px;
+
+}
+.search_text{
+	width: 350px;
+	height: 35px;
+	padding:0 5px;
+}
+.search_btn{
+	width: 70px;
+	height: 35px;
+	font-size: 14px;
+	font-family: "Microsoft YaHei","微软雅黑";
+	background-color:#FF8C00;
+
+}
+/*购物车*/
+.gouwuche{
+	width: 145px;
+	height: 35px;
+	background-color: #FF8C00;
+	margin-top:23px;
+
+}
+.tubiao1{
+	margin-left:5px;
+}
+
+
+/*daohang*/
+.bottom{
+	height: 35px;
+	background-color: #1369c0;
+	color:#FFF;
+}
+.shop{
+	width:190px;
+	line-height: 35px;
+}
