@@ -108,7 +108,33 @@ a:hover{
 	background-color: #1369c0;
 	color:#FFF;
 }
-.shop{
+.shop h3{
 	width:190px;
 	line-height: 35px;
+	display: inline-block;
+}
+.shopclass{
+	padding:14px 10px;
+}
+.shopclass .b{
+	font:14px/1;
+}
+.shopclass  a{
+	color:#FFF;
+}
+.nav{
+	line-height: 35px;
+}
+.nav li{
+	float:left;
+}
+.nav  a{
+	height: 35px;
+	display: inline-block;
+	padding: 0 45px;
+	color:#ffffff;
+	font-size:14px;
+	position: relative;
+	top:-66px;
+	left:185px;
 }
