@@ -1,0 +1,327 @@
+@charset "utf-8";To forget sb is pretty easy.Just don't see him/her,don't be a contemptible wretch.
+/* css reset */
+html, body, div, span,  object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,small, strike, strong, sub, sup, tt, var,
+b,  i,  dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td 
+{margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;}
+body {line-height: 1;}
+ol, ul,li {list-style: none;}
+/* remember to define focus styles! */
+/* remember to highlight inserts somehow! */
+ins {text-decoration: none;}
+del {text-decoration: line-through;}
+/* tables still need 'cellspacing="0"' in the markup */
+table {border-collapse: collapse;border-spacing: 0;}
+img{border: none;}
+a{text-decoration: none; color: #000;}
+/*ltt*/
+*{
+	margin:0;
+	padding: 0;
+	font-size:12px;
+}
+/*头部开始*/
+.top{
+	width: 100%;
+	height: 27px;
+	background:url(../images/top_bg.jpg) repeat-x;
+}
+.top_content{
+	width: 1000px;
+	margin:0 auto;
+}
+.top_content li{
+	list-style-image: url(../images/li_bg.gif);
+	float:right;
+	line-height: 27px;
+	width: 70px;
+
+}
+/*.top_content a:link,.top_content a:visited{
+	color:#8E8E8E;
+}*/
+.top_content a:hover,.top_content a:active{
+	color:#900;
+}
+/*头部结束*/
+/*logo开始*/
+.wrap{
+	width: 1000px;
+	margin:0 auto;
+
+}
+.logo{
+	height: 80px;
+	background-color: #ffffff;
+}
+.logo_left{
+	width: 200px;
+	float:left;
+}
+.logo_right{
+	width: 300px;
+	float: right;
+	height: 28px;
+	margin-top: 30px;
+	color:#8E8E8E;
+}
+.logo_right img{
+	vertical-align: middle;
+	/*使图片后面的文字在图片的中间*/
+	margin-right: 10px;
+}
+.tel{
+	font-size:16px;
+	color:#c00;
+}/*<!-- logo结束 -->*/
+.nav{
+	height: 40px;
+}
+.nav_left{
+	width: 10px;
+	background: url(../images/nav_left.jpg) no-repeat;
+	height: 40px;
+	clear:both;
+	float:left;
+
+}
+.nav_mid{
+	width: 980px;
+	background: url(../images/nav_bg.jpg) repeat-x;
+	float:left;
+}
+.nav_mid_left,.nav_mid_right{
+	float:left;
+}
+.nav_mid_left{
+	width: 680px;
+}
+.nav_mid_right{
+	width: 300px;
+}
+.nav_right{
+	width: 10px;
+	background: url(../images/nav_right.jpg) no-repeat;
+	float:left;
+	height: 40px;
+}
+.nav_mid_left li{
+	float:left;
+	width: 100px;
+	line-height: 40px;
+	text-align: center;
+}
+.nav_mid_left a:link,.nav_mid_left a:visited{
+	color:#FFF;
+	font-size:16px;
+
+}
+.nav_mid_left a:hover,.nav_mid_left a:active{
+	color:yellow;
+}
+.search_text{
+	width: 190px;
+	height: 25px;
+	margin-top:5px;
+	background: #ffffff url(../images/search.jpg) no-repeat right center;
+	padding-right: 25px;
+	border:1px solid #ffffff;
+	font-size:15px;
+	font-weight: bold;
+	padding-left:3px;
+}
+
+
+
+
+.main{
+	height: 250px;
+	background-color:#ffffff;
+	margin-top:5px;
+}
+.news{
+	width: 340px;
+	border:1px solid #E8E8E8;
+	height: 250px;
+}
+.course{
+	width: 410px;
+	border:1px solid #E8E8E8;
+	margin:0 7px;
+	height: 250px;
+}
+.sidebar{
+	width: 230px;
+	height: 250px;
+}
+.news,.course,.sidebar{
+	float:left;
+}
+
+.title{
+	height: 35px;
+	border-bottom: 2px solid #E8E8E8;
+}
+.title_left{
+	width: 70%;
+	font-size: 14px;
+	font-weight: bold;
+	color:#786F66;
+	float:left;/*？为什么这个可以浮动More*/
+	line-height: 35px;
+	padding-left:20px;
+}
+.title_right{
+	width: 20%;
+	float:right;
+	line-height: 35px;
+	text-align:right;
+	padding-right: 5px;
+}
+.title_right a{
+	color:#999999;
+}
+.pic_news{
+	height: 80px;
+	margin-top:10px;
+	line-height: 22px;
+
+}
+.pic_news img,.course_pic img{
+	float:left;
+	margin:0 10px;
+
+}
+.pic_news a,.course_pic a{
+	color:#c00;
+}
+.news_list{
+	margin-top:20px;
+
+}
+.news_list li{
+	background:url(../images/list.jpg) no-repeat;
+	padding-left:10px;
+	margin:8px;
+	border-bottom:1px dotted #ccc
+}
+.news_list a:hover,.news_list a:active{
+	color:#F00;
+}
+.news_list span{
+	color:#999;
+	float:right;
+	margin-right: 2px;
+}
+.course_pic{
+	height:120px;
+	margin-top:10px;
+	line-height: 22px;
+}
+.course_type{
+	height: 37px;
+	width: 372px;
+	margin:20px auto;
+	background: url(../images/product_type_bg.jpg) no-repeat;
+}
+.course_type li{
+	float:left;
+	line-height: 37px;
+	margin:0 15px;
+	text-align: center;
+}
+.video_content{
+	height: 150px;
+}
+.copyright{
+	width: 100%;
+	height: 200px;
+	background-color: #E8E8E8;
+	margin-top:60px;
+	clear:both;
+
+}
+.copyright_content{
+	width: 1000px;
+	margin:0 auto;	
+	padding-top:20px;
+}
+.copyright_content li{
+	float:left;
+	width: 200px;
+	background: url(../images/line.png) no-repeat right center;
+	text-align: center;
+	line-height: 30px;
+/*	font-size:17px;
+	color:#999*//*为什么代替不了下面的语句*/
+
+}
+.copyright_content a{
+	font-size:17px;
+	color:#999;
+}
+.copyright_content li ul li a{
+	font-size:14px;
+}
+
+
+/*子网页补充的样式*/
+
+.ad{
+	height: 243px;
+	margin-left:3px;
+}
+.list_main{
+	min-height: 350px;
+	_height:350px;
+	background-color: #FFF;
+	margin-top:10px;
+}
+.news_type{
+	width: 220px;
+	min-height: 350px;
+	_height:350px;
+	border:1px solid #E8E8E8;
+	float:left;
+}
+.list_box{
+	width: 770px;
+	min-height: 400px;
+	_height:350px;
+	border:1px solid #E8E8E8;
+	float:right;
+}
+.news_type h2{
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+	color:#666;
+	padding-left: 20px;
+	background: url(../images/titile_bg.gif) repeat-x;
+}
+.news_type_content{
+	height: 365px;
+	background: url(../images/content_bg.gif) repeat-x;
+}
+.news_type_content li{
+	line-height: 30px;
+	height: 30px;
+}
+.news_type_content li a{
+	color:#666;
+	background: url(../images/li_bg.gif) no-repeat left center;
+	padding-left: 15px;
+	display: block;
+}
+.news_type_content li a:hover{
+	color:#009;
+	background: url(../images/li_bg2.gif) no-repeat left center;
+	background-color: #F2F2F2;
+}
+.list_box h2{
+	font-size:14px;
+	color:#666;
+	height: 35px;
+	line-height: 35px;
+	background:url(../images/type_bg.png) repeat-x;
+	padding-left: 20px;
+}
