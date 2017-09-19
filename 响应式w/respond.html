@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>响应式</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.content{
+			width: 100%;
+			border:1px  solid #999 ;
+			float:left;
+		}
+		.content i{
+			color:red;
+			font-size: 14px;
+			display: block;
+			margin-top:10px;
+			margin-left:13px;
+		}
+		@media (min-width: 768px)
+		{
+				.fi4{
+				width:25%;
+				height: 50px;
+				background-color: #eee;
+				border:1px solid #999;
+				margin-top:20px;
+				margin-left:6.25%;
+				float:left;
+			}
+				.se3{
+				width: 20%;
+				height: 50px;
+				background-color: #eee;
+				border:1px solid #999;
+				margin-top:20px;
+				float:left;
+				margin-left:6.25%;
+			}		
+				.se6{
+				width: 35%;
+				height: 50px;
+				background-color: #eee;
+				border:1px solid #999;
+				margin-top:20px;
+				float:left;
+				margin-left:6.25%;
+			}
+
+		}
+		@media (max-width: 768px)
+		{
+			.f4{
+				width:40%;
+				height: 50px;
+				background-color: #eee;
+				border:1px solid #999;
+				margin-top:20px;
+				margin-left:6.9%;
+				float：left；
+			}
+			.f6{
+				width: 88%;
+				height: 50px;
+				background-color: #eee;
+				border:1px solid #999;
+				margin-top:20px;
+				margin-left:6%;
+			}
+				.se3{
+				width: 20%;
+				height: 50px;
+				background-color: #eee;
+				border:1px solid #999;
+				margin-top:20px;
+				float:left;
+				margin-left:6.25%;
+			}		
+				.se6{
+				width: 35%;
+				height: 50px;
+				background-color: #eee;
+				border:1px solid #999;
+				margin-top:20px;
+				float:left;
+				margin-left:6.25%;
+			}
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="content">
+		<div class="first">
+			<div class="fi4 f4"><i>四栏</i></div>
+			<div class="fi4 f4"><i>四栏</i></div>
+			<div class="fi4 f6"><i>四栏</i></div>
+		</div>
+		<div class="second">
+			<div class="se3"><i>三栏</i></div>
+			<div class="se6"><i>六栏</i></div>
+			<div class="se3"><i>三栏</i></div>
+		</div>
+		<div class="third">
+			<div class="th1"></div>
+			<div class="th1"></div>
+			<div class="th2"></div>
+			<div class="th2"></div>
+			<div class="th6"></div>
+		</div>
+	</div>
+</body>
+</html>
