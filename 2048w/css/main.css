@@ -1,0 +1,62 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+header{
+	text-align: center;
+	padding-top:20px;
+	font-size:30px;
+	margin-bottom: 20px;
+}
+.message input{
+	width: 75px;
+	height: 25px;
+	line-height: 20px;
+	font-size: 15px;
+}
+article{
+	width: 800px;
+	height: 630px;
+	background-color:#676;
+	margin:0 auto;
+	position: relative;
+}
+.ar_ceil{
+/*	width: 178px;
+	height: 98px;
+	background-color:red;
+	border:1px solid #000;
+	float:left;
+	margin:10px;*/
+	width: 170px;
+	height: 100px;
+	background-color:red;
+	font-size: 50px;
+	position: absolute;
+	text-align: center;
+	padding-top: 30px; 
+}
+.number_ceil{
+	width: 170px;
+	height: 100px;
+	font-size: 50px;
+	position: absolute;
+	text-align: center;
+	padding-top: 30px; 
+}
