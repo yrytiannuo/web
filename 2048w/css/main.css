@@ -29,10 +29,11 @@ header{
 	height: 25px;
 	line-height: 20px;
 	font-size: 15px;
+	text-align:center;
 }
 article{
-	width: 800px;
-	height: 630px;
+	width: 470px;
+	height: 470px;
 	background-color:#676;
 	margin:0 auto;
 	position: relative;
@@ -44,19 +45,17 @@ article{
 	border:1px solid #000;
 	float:left;
 	margin:10px;*/
-	width: 170px;
+	width: 100px;
 	height: 100px;
-	background-color:red;
+	background-color:#864;
 	font-size: 50px;
 	position: absolute;
-	padding-top: 30px; 
 }
 .number_ceil{
-	width: 170px;
+	width: 100px;
 	height: 100px;
-	font-size: 50px;
+	font-size: 25px;
 	position: absolute;
 	text-align: center;
 	line-height: 100px;
-	padding-top: 30px; 
 }
