@@ -1,0 +1,89 @@
+
+.bg{
+	background-color: #22559c;
+	display: table;
+}
+.bg p{
+	font-size: 30px;
+	color: #fff;
+}
+.bg p:first-child{
+	font-size: 56px;
+	margin-top:170px;
+}
+.bg .middleline{
+	width: 100%;
+	background-color: #fff;
+	height: 1px;
+}
+.iconline{
+	width: 1200px;
+	margin: 0 auto;
+	height: 82px;
+	background-color: #fff;
+	padding-top: 18px;
+}
+.icon{
+	float: left;
+	text-align: center;
+}
+.icon_1,.icon_4{
+	margin-left: 140px;
+}
+.icon_3,.icon_6{
+	margin-right: 140px;
+}
+.icon_2,.icon_5{
+	margin-left: 379px;
+	margin-right: 379px;
+}
+.icon_4 p{
+	margin-left: -13px;
+}
+.essay1{
+	width: 100%;
+	height: 320px;
+	background-color: #f5f9a1;
+}
+.essay_more{
+	width: 1200px;
+	margin: 0 auto;
+	height: 320px;
+}
+.essay{
+	width: 400px;
+	float: left;
+	height: 320px;
+}
+.essay ul{
+	margin-left: 20px;
+}
+.essay li{
+	margin-top: 20px;
+}
+.essay li p {
+	display: inline;
+}
+.essay li p a{
+	color:#000;
+	font-size: 13px;
+}
+.essay2{
+	width: 100%;
+	height: 320px;
+	background-color: #abedd8;
+}
+
+footer {
+	height:110px;
+	background-color: #22559c;
+	padding-top: 30px;
+}
+footer .pc{
+	width: 100%；
+	height:140px;
+}
+footer .pc p{
+	font-size: 19px;
+	color: #fff;
+}

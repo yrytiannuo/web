@@ -1,0 +1,53 @@
+body{
+	background-color: #e5e5de;
+}
+.bg{
+	background-color: #fa9856;
+	display: table;
+}
+.bg p{
+	font-size: 30px;
+	color: #fff;
+}
+.bg p:first-child{
+	font-size: 56px;
+	margin-top:170px;
+}
+.moments{
+	width: 1200px;
+	height: 975px;
+	margin:0 auto;
+	background-color: #fff;
+}
+.moments .mom{
+	width: 350px;
+	float:left;
+	margin-top: 50px;
+	height: 257px;
+}
+.moments .mom_2,.mom_5,.mom_8{
+	margin-left: 75px;
+	margin-right: 75px;
+}
+.moments .mom img{
+	width: 350px;
+}
+.moments .detail{
+	height: 63px;
+	width: 350px;
+	background-color: #f1fbf8;
+	margin-top:-3px;
+}
+footer {
+	height:110px;
+	background-color: #fa9856;
+	padding-top: 30px;
+}
+footer .pc{
+	width: 100%；
+	height:140px;
+}
+footer .pc p{
+	font-size: 19px;
+	color: #fff;
+}
